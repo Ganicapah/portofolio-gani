@@ -12,14 +12,12 @@ export default function Experience() {
       </h2>
 
       <div className="flex flex-col lg:flex-row gap-16 lg:gap-24">
-        {/* --- WORK EXPERIENCE TIMELINE --- */}
         <div className="w-full lg:w-1/2">
           <h3 className="text-xl font-bold text-yellow-500 tracking-widest mb-10 uppercase">
             Work Experience
           </h3>
 
           <div className="relative border-l border-gray-800 ml-3 md:ml-4">
-            {/* Timeline Item 1: Layanan FST */}
             <div className="relative pl-8 md:pl-12 mb-12 group">
               <div className="absolute -left-[9px] top-1.5 w-4 h-4 bg-[#151515] border-2 border-yellow-500 rounded-full group-hover:bg-yellow-500 transition-colors duration-300"></div>
 
@@ -63,7 +61,6 @@ export default function Experience() {
               </ul>
             </div>
 
-            {/* Timeline Item 2: PT Cabot Indonesia */}
             <div className="relative pl-8 md:pl-12 mb-12 group">
               <div className="absolute -left-[9px] top-1.5 w-4 h-4 bg-[#151515] border-2 border-gray-600 rounded-full group-hover:bg-yellow-500 transition-colors duration-300"></div>
 
@@ -98,7 +95,6 @@ export default function Experience() {
               </ul>
             </div>
 
-            {/* Timeline Item 3: BUMDes Pekiringan */}
             <div className="relative pl-8 md:pl-12 group">
               <div className="absolute -left-[9px] top-1.5 w-4 h-4 bg-[#151515] border-2 border-gray-600 rounded-full group-hover:bg-yellow-500 transition-colors duration-300"></div>
 
@@ -143,14 +139,12 @@ export default function Experience() {
           </div>
         </div>
 
-        {/* --- SKILLS & INTERESTS GRID --- */}
         <div className="w-full lg:w-1/2">
           <h3 className="text-xl font-bold text-yellow-500 tracking-widest mb-10 uppercase">
             Skills & Expertise
           </h3>
 
           <div className="flex flex-col gap-6">
-            {/* Category 1: Programming & Databases */}
             <div className="bg-[#111] border border-gray-800 rounded-2xl p-6 hover:border-gray-700 transition-colors">
               <h4 className="text-white font-medium tracking-wide mb-4 text-sm uppercase">
                 Programming & Databases
@@ -174,7 +168,6 @@ export default function Experience() {
               </div>
             </div>
 
-            {/* Category 2: Architecture & Methodology */}
             <div className="bg-[#111] border border-gray-800 rounded-2xl p-6 hover:border-gray-700 transition-colors">
               <h4 className="text-white font-medium tracking-wide mb-4 text-sm uppercase">
                 Architecture & Methodology
@@ -193,7 +186,6 @@ export default function Experience() {
               </div>
             </div>
 
-            {/* Category 3: Soft Skills & Concepts */}
             <div className="bg-[#111] border border-gray-800 rounded-2xl p-6 hover:border-gray-700 transition-colors">
               <h4 className="text-white font-medium tracking-wide mb-4 text-sm uppercase">
                 Soft Skills & Core Concepts
