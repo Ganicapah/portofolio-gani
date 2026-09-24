@@ -6,6 +6,7 @@ import Portfolio from "./components/Portofolio";
 import Footer from "./components/Footer";
 import Experience from "./components/Experience";
 import GithubActivity from "./components/GithubActivity";
+import Certifications from "./components/Certifications";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         <Navbar />
         <About />
         <Experience />
+        <Certifications />
         <Portfolio />
         <GithubActivity />
         <Footer />
